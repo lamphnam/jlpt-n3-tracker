@@ -83,7 +83,7 @@ export const ACHIEVEMENTS_CONFIG: Achievement[] = [
     title: "Nghiện học",
     description: "Hoàn thành 7 ngày học liên tiếp.",
     icon: "🔥",
-    isUnlocked: (completedDays, schedule, streaks) =>
+    isUnlocked: (_completedDays, _schedule, streaks) =>
       streaks.longestStreak >= 7,
   },
   {
